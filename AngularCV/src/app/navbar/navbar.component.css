@@ -1,0 +1,23 @@
+nav {
+  position: sticky;
+  height: 100%;
+  display: flex;
+  font-family: "Berkshire Swash";
+  font-size: 2em;
+  color: invert;
+  background: url("../img/light2.jpeg") fixed center no-repeat;
+  background-size: cover; }
+  nav ul{
+    width: 100%;
+  }
+  nav a{
+    color: white;
+  }
+
+  a{
+    color: yellow;
+
+  }
+  a.active{
+    color: green;
+  }

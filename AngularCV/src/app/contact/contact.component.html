@@ -1,0 +1,46 @@
+<section id="contact" class="container-fluid text-center">
+  <h3 class="text-center">Encore en développement... </h3>
+  <h5 class="text-center">Sorry ^^</h5>
+  <div id="cnt-form" class="container">
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm" class="row jumbotron text-center">
+
+        <div id="row1" class="col-sm-12 col-md-6">
+          <div id="form-sujet" class="text-center">
+            <div class="form-group custom-control-inline">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="objet">Objet</label>
+              </div>
+              <select id="objet" class="custom-select" ngModel name="subject">
+                <option selected value="">Choisissez...</option>
+                <option value="perso">Personnel</option>
+                <option value="pro">Professionnel</option>
+                <option value="shake">Booking Shake dB</option>
+                <option value="seuh">Booking SeuH KrY</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="form-name" class="form-group">
+            <input id="cont-name" type="text" class="form-control" ngModel name="name" required placeholder="Votre nom">
+          </div>
+
+          <div id="form-mail" class="form-group">
+            <input id="cont-mail" type="email" class="form-control" ngModel #email="ngModel" required name="email" placeholder="Votre e-mail">
+          </div>
+        </div>
+
+        <div id="row2" class="col-sm-12 col-md-6 text-center container-fluid">
+          <div id="form-message" class="form-group col-12 ">
+            <textarea id="message" class="form-control" ngModel name="content" required placeholder="Tapez votre message"></textarea>
+          </div>
+
+          <div id="confirm" class="col-sm-12"></div>
+
+          <div id="form-submit" class="form-group col-sm-12">
+            <button id="cont-submit" type="submit" [disabled]="!f.valid" class="btn btn-primary">Envoyer</button>
+          </div>
+        </div>
+
+    </form>
+  </div>
+</section>

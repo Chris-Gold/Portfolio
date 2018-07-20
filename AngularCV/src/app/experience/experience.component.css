@@ -1,0 +1,38 @@
+#exp {
+  width: 100%;
+  height: 100%;
+  background-color: #191515;
+  color: #2a2e33;
+  padding: 0;
+}
+  #carousel{
+
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-inner{
+    height: 100%;
+  }
+  .carousel-item{
+    height: 100%;
+  }
+  #exp #show {
+    background: url("../img/show2.jpg") center no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+  }
+  #exp #btp {
+    background: url("../img/btp2.jpg") center no-repeat;
+    background-size: 101% 101%;
+    margin-bottom: 0;
+ }
+  #exp #merch {
+    background: url("../img/merch.jpg") center no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+ }
+  #exp .sub {
+    background-color: rgba(233, 236, 239, 0.5); }
+  #merch .sub{
+    margin-top: 4em;
+  }

@@ -1,0 +1,46 @@
+<section id="exp" class="d-flex align-items-center">
+      <div id="carousel" class="carousel slide text-center" >
+        <div class="carousel-inner">
+          <div id="show" class="carousel-item active jumbotron ">
+            <div class="sub jumbotron">
+              <h3>Spectacle vivant</h3>
+                <ul class="list-unstyled" *ngFor="let spec of specsArray">
+                  <li><strong>{{spec.poste}}</strong></li>
+                  <li>{{spec.date}}</li>
+                  <li>{{spec.entreprise}}</li>
+                </ul>
+            </div>
+          </div>
+
+          <div id="btp" class="carousel-item jumbotron">
+            <div class="sub jumbotron">
+              <h3>Bâtiment et Travaux publics</h3>
+                <ul class="list-unstyled" *ngFor="let bat of batsArray">
+                  <li><strong>{{bat.poste}}</strong></li>
+                  <li>{{bat.date}}</li>
+                  <li>{{bat.entreprise}}</li>
+                </ul>
+            </div>
+          </div>
+
+          <div id="merch" class="carousel-item jumbotron">
+            <div class="sub jumbotron">
+              <h3>Commerce</h3>
+                <ul class="list-unstyled" *ngFor="let com of comsArray">
+                  <li><strong>{{com.poste}}</strong></li>
+                  <li>{{com.date}}</li>
+                  <li>{{com.entreprise}}</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </section>

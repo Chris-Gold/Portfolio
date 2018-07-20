@@ -1,0 +1,21 @@
+html, body{
+  height: 100%;
+}
+
+#head{
+  height:30vh;
+}
+#navbar{
+  height: 7vh;
+}
+#outlet{
+  height: 60vh;
+}
+#footer{
+  width: 100%;
+  color: white;
+  background-color: black;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+}

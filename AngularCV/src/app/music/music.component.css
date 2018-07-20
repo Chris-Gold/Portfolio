@@ -1,0 +1,35 @@
+#music {
+  min-height: 100%;
+  background-color: black;
+}
+#music .row {
+  height: 100%;
+ }
+#music .d-flex {
+  flex-direction: column; }
+#music .fa-youtube {
+  color: #ff0000; }
+#music .fa-mixcloud {
+  color: #5f5f5f; }
+#music .fa-soundcloud {
+  color: #ff6500; }
+#music #seuh {
+  height: 100%;
+  background: url("../img/seuh3.png")center no-repeat;
+  background-size: cover;
+  padding-bottom: 8em;
+  padding-top: 5em;
+}
+
+#music #shake {
+  height: 100%;
+  background: url("../img/shake.jpg")center no-repeat;
+  background-size: cover;
+  padding-bottom: 5em;
+  padding-top: 5em;
+}
+#music h3 {
+  font-family: "Sofia";
+  font-size: 3em;
+  text-shadow: 0.1em 0.1em 0.15em #333;
+  color: white; }
